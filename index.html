@@ -8,96 +8,116 @@
     <title>matrix multiplication</title>
 </head>
 <body>
-    <section class="flex">
-        <table>
-            <tr>
-                <th></th>
-                <th>Camisa A</th>
-                <th>Camisa B</th>
-                <th>Camisa C</th>
-            </tr>
-            <tr>
-                <th>Botões p</th>
-                <td>
-                    <input type="number" name="" id="Ap" value="3">
-                </td>
-                <td>
-                    <input type="number" name="" id="Bp" value="1">
-                </td>
-                <td>
-                    <input type="number" name="" id="Cp" value="3">
-                </td>
-            </tr>
-            <tr>
-                <th>Botões G</th>
-                <td>
-                    <input type="number" name="" id="AG" value="6">
-                </td>
-                <td>
-                    <input type="number" name="" id="BG" value="5">
-                </td>
-                <td>
-                    <input type="number" name="" id="CG" value="5">
-                </td>
-            </tr>
-        </table>
+
+    <div class="paragraph">
+        <p>
+            O código foi desenvolvido para a solução do exercício 2 do slide 29 do material de "Matrizes e operações". Segue a questão problema:
+        </p>
+        <p>
+            2. Na confecção de três modelos de camisas (A, B, C) são usados botões grandes (G) e pequenos (p). O número de botões por modelos e o número de camisas fabricadas, de cada modelo nos meses de maio junho são dados pelas tabelas abaixo:
+        </p>
+        <p>
+            É possível alterar os dados da tabela.
+        </p>
+    </div>
+
+    <div class="content">
+        <section class="flex">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Camisa A</th>
+                    <th>Camisa B</th>
+                    <th>Camisa C</th>
+                </tr>
+                <tr>
+                    <th>Botões p</th>
+                    <td>
+                        <input type="number" name="" id="Ap" value="3">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="Bp" value="1">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="Cp" value="3">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Botões G</th>
+                    <td>
+                        <input type="number" name="" id="AG" value="6">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="BG" value="5">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="CG" value="5">
+                    </td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Maio</th>
+                    <th>Junho</th>
+                </tr>
+                <tr>
+                    <th>Camisa A</th>
+                    <td>
+                        <input type="number" name="" id="MA" value="100">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="JA" value="50" >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Camisa B</th>
+                    <td>
+                        <input type="number" name="" id="MB" value="50">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="JB" value="100" >
+                    </td>
+                </tr>
+                <tr>
+                    <th>Camisa C</th>
+                    <td>
+                        <input type="number" name="" id="MC" value="50">
+                    </td>
+                    <td>
+                        <input type="number" name="" id="JC" value="50">
+                    </td>
+                </tr>
+            </table>
+        </section>
         
-        <table>
-            <tr>
-                <th></th>
-                <th>Maio</th>
-                <th>Junho</th>
-            </tr>
-            <tr>
-                <th>Camisa A</th>
-                <td>
-                    <input type="number" name="" id="MA" value="100">
-                </td>
-                <td>
-                    <input type="number" name="" id="JA" value="50" >
-                </td>
-            </tr>
-            <tr>
-                <th>Camisa B</th>
-                <td>
-                    <input type="number" name="" id="MB" value="50">
-                </td>
-                <td>
-                    <input type="number" name="" id="JB" value="100" >
-                </td>
-            </tr>
-            <tr>
-                <th>Camisa C</th>
-                <td>
-                    <input type="number" name="" id="MC" value="50">
-                </td>
-                <td>
-                    <input type="number" name="" id="JC" value="50">
-                </td>
-            </tr>
-        </table>
-    </section>
+        <div class="paragraph">
+            <p>
+                O resultado é dado pela tabela abaixo:
+            </p>
+        </div>
 
-    <section>
-        <table>
-            <tr>
-                <th></th>
-                <th>Maio</th>
-                <th>Junho</th>
-            </tr>
-            <tr>
-                <th>Botões p</th>
-                <td id="Mp">500</td>
-                <td id="Jp">400</td>
-            </tr>
-            <tr>
-                <th>Botões G</th>
-                <td id="MG">1100</td>
-                <td id="JG">1050</td>
-            </tr>
-        </table>
-    </section>
-
+        <section class="result">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Maio</th>
+                    <th>Junho</th>
+                </tr>
+                <tr>
+                    <th>Botões p</th>
+                    <td id="Mp">500</td>
+                    <td id="Jp">400</td>
+                </tr>
+                <tr>
+                    <th>Botões G</th>
+                    <td id="MG">1100</td>
+                    <td id="JG">1050</td>
+                </tr>
+            </table>
+        </section>
+    </div>
     </body>
     <script src="script.js"></script>
     </html>

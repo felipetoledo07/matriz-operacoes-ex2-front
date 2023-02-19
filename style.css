@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    border: none
+    border: none;
+    background-color: #e3ffff;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 table {
@@ -15,6 +17,10 @@ th, td {
     text-align: center;
 }
 
+th {
+    background-color: #c9f8f8;
+}
+
 input {
     width: 50px;
     text-align: center;
@@ -25,4 +31,27 @@ input {
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.content {
+    padding: 40px;
+}
+
+.result {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.paragraph {
+    width: 60%;
+    margin-left: calc((100vw - 60%)/2);
+    margin-top: 50px;
+    text-align: justify;
+}
+
+p {
+    margin-top: 10px;
 }
